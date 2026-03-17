@@ -1,6 +1,12 @@
 import Link from "next/link";
 import { User, GraduationCap, Target } from "lucide-react";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About | Jiarui Wang",
+};
+
 export default function AboutPage() {
   const navItems = [
     { label: "Home", href: "/" },

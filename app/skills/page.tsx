@@ -19,6 +19,12 @@ import {
   CloudCog,
 } from "lucide-react";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Skills | Jiarui Wang",
+};
+
 export default function SkillsPage() {
   const navItems = [
     { label: "Home", href: "/" },

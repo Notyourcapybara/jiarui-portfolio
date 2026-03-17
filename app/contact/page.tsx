@@ -1,6 +1,12 @@
 import Link from "next/link";
 import { Mail, Linkedin, Github, MapPin } from "lucide-react";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact | Jiarui Wang",
+};
+
 export default function ContactPage() {
   const navItems = [
     { label: "Home", href: "/" },

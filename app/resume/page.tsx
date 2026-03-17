@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { FileText, Eye, Download } from "lucide-react";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Resume | Jiarui Wang",
+};
 export default function ResumePage() {
   const navItems = [
     { label: "Home", href: "/" },
