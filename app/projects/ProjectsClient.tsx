@@ -51,11 +51,7 @@ export default function ProjectsClient() {
         "RBAC",
       ],
       visuals: [
-        {
-          title: "Dashboard View",
-          image: "/project/hinsight/dashboard.png",
-          alt: "HINSIGHT dashboard screenshot",
-        },
+       
         {
           title: "Architecture Diagram",
           image: "/project/hinsight/architecture.png",
@@ -69,7 +65,7 @@ export default function ProjectsClient() {
         },
       ],
       reflection:
-        "Through this project, I learned how to design a user-focused analytics dashboard and connect backend data with frontend visualization. It also strengthened my teamwork, communication, and project coordination skills. The project showed me how data dashboards can support better organizational decision-making.",
+        "Due to a Non-Disclosure Agreement (NDA) signed with the project sponsor, certain dashboard views and data visualizations cannot be publicly displayed.Through this project, I learned how to design a user-focused analytics dashboard and connect backend data with frontend visualization. It also strengthened my teamwork, communication, and project coordination skills. The project showed me how data dashboards can support better organizational decision-making.",
     },
     {
       id: 2,
